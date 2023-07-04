@@ -1,5 +1,3 @@
-Pagina inicial de portfólio básico em HTML, CSS e JavaScript.
+Porrfólio - Kaique Nocetti (Kaique Dev)
 
-Proximas versões com a sessão de projetos. 
-
-Personalize reutilize o template como quiser =)
+Um pouco sobre mim e meus projetos. 
