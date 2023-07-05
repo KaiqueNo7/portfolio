@@ -58,5 +58,3 @@ function scrollToElement(elementId) {
 
   requestAnimationFrame(animation);
 }
-
-scrollToElement('#projects');
