@@ -58,3 +58,10 @@ function scrollToElement(elementId) {
 
   requestAnimationFrame(animation);
 }
+
+var scroll = document.getElementById("scroll"); // Substitua "seuElementoID" pelo ID do elemento desejado
+
+scroll.addEventListener("click", function() {
+  scrollToElement("#projects"); // Substitua "seuElementoID" pelo ID do elemento desejado
+});
+
