@@ -1,38 +1,126 @@
 <html><!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfólio</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="icon" href="img/logo.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kaique Dev - Portfólio</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="icon" href="img/logo.png">
 </head>
-<body>
-<div class="container">
-	<div class="content">
-		<div class="logo">
-			<a href="#">Início</a>
-			<a href="#">Projetos</a>
-		</div>
-		<div class="content-box">
-			<h2>Olá mundo!</h2>
-			<h2>Me chamo Kaique Nocetti</h2>
-			<h1>e sou <span class="text-animation" id="text-animation"></span>.</h1>
-			<a href="#">Download meu CV</a>	
+<body class="bg">
+	<div class="hv100 w100 js-btw al-center p30 m-column">
+		<div class="js-btw column w50 h100 g20">
+			<header>
+				<a href="https://kaiqueno7.github.io/portifolio/">Início</a>
+				<a onclick="scrollToElement('projects');">Projetos</a>
+			</header>
+
+			<div class="content-box">
+				<h2>Olá mundo!</h2>
+				<h2>Me chamo Kaique Nocetti</h2>
+				<h1>e sou desenvolvedor</h1>
+				<h1><span class="text-animation" id="text-animation"></span>.</h1>	
+			</div>	
+
+			<div class="w50 js-center al-start column content-box">
+				<p class="t-w">Principais ferramentas que utilizo:</p>
+				<div class="progress">
+					<div class="temp w80">PHP - 2 Anos</div>
+				</div>
+				<div class="progress">
+					<div class="temp w80">JavaScript - 2 Anos</div>
+				</div>
+				<div class="progress">
+					<div class="temp w70">SQL - 1 Ano</div>
+				</div>
+				<div class="progress">
+					<div class="temp w100">HTML/CSS - 3 Anos</div>
+				</div>
+				<a href="cv/KaiqueNocetti.docx" target="_">Download meu CV</a>
+			</div>
+
+			<ul class="w100 js-start al-center sci">
+				<li><a href="https://github.com/KaiqueNo7" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/kaique-nocetti-9950b7212/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCOuMMc9V-acGRgJgxd-MBmw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
 		</div>	
-		<ul class="sci">
-			<li><a href="#"><i class="fa-brands fa-github"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-			<li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-		</ul>
-	</div>	
-	<div class="right">
-		<div class="img-circle">
-			<img src="img/eu.jpeg"  alt="Sua foto">
+		<div class="w50 js-center al-center h100">
+			<div class="circle">
+				<img src="img/eu.jpeg"  alt="Minha foto">
+			</div>
 		</div>
 	</div>
-</div>
-<script src="scripts.js"></script>
+	<h2 class="t-w p30">Projetos</h2>
+	<div id="projects" class="hv100 js-btw w100 p30 m-column">
+		<div class="w33 js-btw al-start column card p20">
+			<p class="t-b">AJF Imóveis - Full Stack</p>
+			<div class="card-img js-center al-center m10-0">
+				<img src="img/ajfimoveis.jpg" alt="Imagem do Site">
+				<a href="https://ajfimoveis.com.br" target="_blank">acesssar</a>
+			</div>
+			
+			<p class="m10-0 h300">Projeto quase 100% - Este é o meu principal projeto, com ele consegui meu primeiro emprego.
+				Tenho muito carinho por ele, pós ele evolui junto comigo. Ele começou como um website de apresentação de imóveis estático.
+				Hoje ele se encontra dinâmico e com o cadastro de imóveis sendo feito atráves de um painel. Esse projeto está quase 100%
+				porque ainda faltam alguns ajustes, mas é o que está mais próximo de ser finalizado.
+			</p>
+
+			<div class="w50 js-btw al-start">
+				<i class="fa-brands fa-php php"></i>
+				<i class="fa-brands fa-js js"></i>
+				<i class="fa-brands fa-html5 html"></i>
+				<i class="fa-brands fa-css3-alt css"></i>
+			</div>
+			
+		</div>
+		<div class="w33 js-btw al-start column card p20">
+			<p class="t-b">Adote.me - Full Stack</p>
+			<div class="card-img js-center al-center m10-0">
+				<img src="img/adote-me.jpg" alt="Imagem do Site">
+				<a href="#">Em desenvolvimento</a>
+			</div>
+			
+			<p class="m10-0 h300">Projeto em fase inicial - Planejo fazer um WebSite onde você possa encontrar ou cadastrar cães para
+				adoção. Onde você vai preencher alguns campos, como localização, tamanho preferido, cor, e então com esses dados vamos
+				filtrar os cães que se adequam ao perfil. O projeto ainda não saiu do paoel e não tem nenhuma linha de código ainda, mas em
+				breve vai entrar em produção. Pretendo terminar esse projeto em um mês.
+			</p>
+
+			<div class="w50 js-btw al-start">
+				<i class="fa-brands fa-php php"></i>
+				<i class="fa-brands fa-js js"></i>
+				<i class="fa-brands fa-html5 html"></i>
+				<i class="fa-brands fa-css3-alt css"></i>
+			</div>
+			
+		</div>
+		<div class="w33 js-btw al-start column card p20">
+			<p class="t-b">Nocetti Jóias - Full Stack</p>
+			<div class="card-img js-center al-center m10-0">
+				<img src="img/nocettis.jpg" alt="Imagem do Site">
+				<a href="#">Em desenvolvimento</a>
+			</div>
+			
+			<p class="m10-0 h300">Projeto em fase de finalização - Aqui a ideia é fazer uma loja virtual para vender jóias online.
+				Por se tratar de um produto luxuoso, o risco inicial demanda um investimento maior. Então eu vou começar apenas com
+				um monstruário online onde os cadastros da jóias sejam dinâmicos. Mas a fase final é ser um E-commerce, porém, como precisa
+				de investimento, o projeto parou nessa fase.
+			</p>
+
+			<div class="w50 js-btw al-start">
+				<i class="fa-brands fa-php php"></i>
+				<i class="fa-brands fa-js js"></i>
+				<i class="fa-brands fa-html5 html"></i>
+				<i class="fa-brands fa-css3-alt css"></i>
+			</div>
+			
+		</div>
+	</div>
+	<footer>
+		<p>Kaique Nocetti - Portfólio</p>
+	</footer>
 </body>
+<script src="scripts.js"></script>
 </html>
