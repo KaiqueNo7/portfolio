@@ -264,7 +264,8 @@
 	flex-direction: column;
 }
 
-header a {
+header a,
+header button {
 	font-size: 1em;
 	color: var(--branco);;
 	font-weight: 300;
@@ -272,6 +273,8 @@ header a {
 	margin: 0 10px;
 	cursor: pointer;
 	transition: 0.3s;
+	border: none;
+	background: transparent;
 }
 
 header a:hover {
