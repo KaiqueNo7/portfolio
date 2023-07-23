@@ -75,7 +75,7 @@ window.addEventListener("scroll", function(){
 });
 
 
-const traducoesPt = {
+const translationsPt = {
   t1: "Olá mundo!",
   t2: "Meu nome é Kaique Nocetti",
   t3: "e eu sou desenvolvedor",
@@ -99,13 +99,13 @@ const traducoesPt = {
 
 };
 
-const traducoesEn = {
+const translationsEn = {
   t1: "Hello World!",
   t2: "My name is Kaique Nocetti",
   t3: "and I'm a developer",
   d1: "Main tools I use:",
   d2: "PHP - 2 Years",
-  d3: "JavaScript - 2 Year",
+  d3: "JavaScript - 2 Years",
   d4: "PostgreeSQL - 1 Year",
   d5: "HTML5/CSS3 - 3 Years",
   d6: "Download my CV",
@@ -122,7 +122,7 @@ const traducoesEn = {
   auditoron: "Web audit management system. I worked including features and bug fixes. Technologies used: PHP, HTML5, CSS3, Bootstrap and PostgreeSQL."
 };
 
-const traducoesFr = {
+const translationsFr = {
     t1: "Bonjour le monde!",
     t2: "Je m'appelle Kaique Nocetti",
     t3: "je suis développeur",
@@ -145,26 +145,26 @@ const traducoesFr = {
     auditoron: "Système de gestion d'audit Web. J'ai travaillé notamment sur les fonctionnalités et les corrections de bugs. Technologies utilisées : PHP, HTML5, CSS3, Bootstrap et PostgreeSQL."
   };
 
-function mudarIdioma(idioma) {
+function changeLanguage(language) {
 
-  let traducoes;
-  if (idioma === 'pt') {
-    traducoes = traducoesPt;
+  let translations;
+  if (language === 'pt') {
+    translations = translationsPt;
   } 
   
-  if (idioma === 'en') {
-    traducoes = traducoesEn;
+  if (language === 'en') {
+    translations = translationsEn;
   }
 
-  if (idioma === 'fr') {
-    traducoes = traducoesFr;
+  if (language === 'fr') {
+    translations = translationsFr;
   }
 
-  for (const chave in traducoes) {
-    if (traducoes.hasOwnProperty(chave)) {
-      const elemento = document.getElementById(chave);
-      if (elemento) {
-        elemento.innerText = traducoes[chave];
+  for (const key in translations) {
+    if (translations.hasOwnProperty(key)) {
+      const element = document.getElementById(key);
+      if (element) {
+        element.innerText = translations[key];
       }
     }
   }
