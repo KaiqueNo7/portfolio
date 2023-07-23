@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Kaique Dev - Portfólio</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="icon" href="img/logo.png">
+</head>
+<body class="bg">
+	<header class="w100 js-btw al-center p20">
+			<div class="w80 js-start al-center">
+				<a href="https://kaiqueno7.github.io/portifolio/">Início</a>
+				<button id="scroll">Projetos</button>
+			</div>
+			<div class="w20 js-center al-center">
+				<ul class="flags js-ard al-center w100">
+					<li>
+						<p>Native</p>
+						<button onclick="mudarIdioma('pt')"><img src="img/brazil.jpg" alt="Bandeira do Brasil"></button>
+					</li>
+					<li>
+						<p>B1</p>
+						<button onclick="mudarIdioma('en')"><img src="img/united-kingdom.jpg" alt="Bandeira do Reino Unido"></button>	
+					</li>
+					<li>
+						<p>A1</p>
+						<button onclick="mudarIdioma('fr')"><img src="img/france.jpg" alt="Bandeira da França"></button>	
+					</li>
+				</ul>
+			</div>
+	</header>
+	<div class="js-btw w100 hv100 g20 m-column">
+		<div class="w50 js-btw column al-start p30">
+			<div class="content-box">
+				<h2 id="t1">Hello World!</h2>
+				<h2 id="t2">My name is Kaique Nocetti</h2>
+				<h1 id="t3">and I'm a developer</h1>
+				<h1><span class="text-animation" id="text-animation"></span>.</h1>	
+			</div>	
+
+			<div class="w50 js-center al-start column content-box">
+				<p class="t-w" id="d1">Main tools I use:</p>
+				<div class="progress">
+					<div class="temp w80" id="d2">PHP - 2 Years</div>
+				</div>
+				<div class="progress">
+					<div class="temp w80" id="d3">JavaScript - 2 Years</div>
+				</div>
+				<div class="progress">
+					<div class="temp w70" id="d4">PostgreeSQL - 1 Year</div>
+				</div>
+				<div class="progress">
+					<div class="temp w100" id="d5">HTML5/CSS3 - 3 Years</div>
+				</div>
+				<a href="cv/KaiqueNocetti.pdf" target="_" id="d6">Download my CV</a>
+			</div>
+
+			<ul class="w100 js-start al-center sci">
+				<li><a href="https://github.com/KaiqueNo7" target="_blank"><i class="fa-brands fa-github"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/kaique-nocetti-9950b7212/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UCOuMMc9V-acGRgJgxd-MBmw" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
+		</div>	
+		<div class="w50 js-center al-center">
+			<div class="circle">
+				<img src="img/eu.jpeg"  alt="Minha foto">
+			</div>
+		</div>
+	</div>
+	<h2  id="#projects" class="t-w p30" id="p1">My person projects</h2>
+	<div class="hv100 js-btw w100 p30 column">
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://ajfimoveis.com.br" target="_blank">AJF Imóveis</a> - Full Stack</p>
+				
+				<p class="m10-0 hAuto" id="ajfimoveis">My first project as a programmer, in the first version I only used Front-End, HTML, CSS and a little bit of Javascript.
+				I gained experience and over time I added new things, such as google recaptcha to validate email submissions through the contact form,
+				it also includes a functionality where the user can calculate the financing of a property, and generates a graph showing the installments, 
+				recently I added a database, to control my Back-End. Today the site is dynamic and has a control panel for the site administrator, in my father's 
+				case, so he can dynamically add and edit information about the property. The technologies used in this project were: PHP, HTML5, CSS3, Javascript,
+				Jquery, MySQL and ChartJs.</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/ajfimoveis.png" alt="Imagem do Site Desktop">
+			</div>
+			<div class="card-img-phone">
+				<img src="img/phone.png" alt="Imagem do Site Phone">
+			</div>
+		</div>
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://mostruario.online" target="_blank">Mostruário Online</a> - Full Stack</p>
+				
+				<p class="m10-0 hAuto" id="mostruarioOnline">An online platform for people to create their own showcase/catalog and have it for personal use. This project was meant
+				to be just a showcase for my mother who works with jewelry, a more complex product to sell online through an e-commerce or advertise on social network
+				s due to lack of security and to be a high value product. So I created the showcase so she could copy the link and send it to her clients privately. 
+				But then I realized that it could be a solution for other types of business, so I turned into a platform with several features. My idea is to be as simple
+				to use as possible, besides I created it imagining that the end customer was my mother, so I tried to simplify the entire UX and UI as much as possible.
+				The project is already online and working in its first version. The technologies I used were: PHP, HTML5, CSS3, Javascript, Jquery and MySQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/mostruario.online.png" alt="Imagem do Site Desktop">
+			</div>
+			<div class="card-img-phone">
+				<img src="img/phone.png" alt="Imagem do Site Phone">
+			</div>
+		</div>
+
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b">Adote.me - Full Stack</p>
+				
+				<p class="m10-0 h300" id="adoteme">A website for adopting dogs. The idea of the project is to make it easier for people who want to 
+				adopt a pet or want to put a pet up 
+				for adoption.
+				Transforming this process into a light experience, with fun questionnaires, a well-designed algorithm to find the perfect tutor for the pet
+				and taking care of
+				all the responsibilities that an adoption requires. This project I'm using: React JS, NODEjs and MySQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/adote-me.jpg" alt="Imagem do Site Desktop">
+			</div>
+		</div>
+	</div>
+
+	<h2 class="t-w p30" id="p2">Projects I worked on</h2>
+
+	<div class="hv100 js-btw w100 p30 column">
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://school.ith2o.net" target="_blank">ITH2OSCHOOL</a> - ITH2O SOFTWARE</p>
+				
+				<p class="m10-0 h300" id="school">School Management Web System. I worked including features and bug fixes.
+				Technologies used: PHP, HTML5, CSS3, Bootstrap and PostgreeSQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/school.png" alt="Imagem do Site Desktop">
+			</div>
+		</div>
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://medical.ith2o.net" target="_blank">ITH2OMEDICAL</a> - ITH2O SOFTWARE</p>
+				
+				<p class="m10-0 h300" id="medical">Web management system for medical clinics. I worked including features and bug fixes. 
+				Technologies used: PHP, HTML5, CSS3, Bootstrap and PostgreeSQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/medical.png" alt="Imagem do Site Desktop">
+			</div>
+		</div>
+
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://vet.ith2o.net" target="_blank">ITH2OVET</a> - ITH2O SOFTWARE</p>
+				
+				<p class="m10-0 h300" id="vet">Web management system for veterinary clinics. I worked including features and bug fixes. 
+				Technologies used: PHP, HTML5, CSS3, Bootstrap and PostgreeSQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/vet.png" alt="Imagem do Site Desktop">
+			</div>
+		</div>
+
+		<div class="w100 js-btw al-center card p20 m-column">
+			<div class="w50 js-btw al-start column p20">
+				<p class="t-b"><a href="https://auditoron.ith2o.net" target="_blank">AUDITORON</a> - ITH2O SOFTWARE</p>
+				
+				<p class="m10-0 h300" id="auditoron">Web audit management system. I worked including features and bug fixes. 
+				Technologies used: PHP, HTML5, CSS3, Bootstrap and PostgreeSQL.
+				</p>
+
+				<div class="w50 js-btw al-start">
+					<i class="fa-brands fa-php php"></i>
+					<i class="fa-brands fa-js js"></i>
+					<i class="fa-brands fa-html5 html"></i>
+					<i class="fa-brands fa-css3-alt css"></i>
+				</div>
+			</div>
+			
+			<div class="card-img-desktop">
+				<img src="img/auditoron.png" alt="Imagem do Site Desktop">
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<p>Kaique Nocetti - Portfólio</p>
+	</footer>
+</body>
+<script src="events.js"></script> 
+</html>
