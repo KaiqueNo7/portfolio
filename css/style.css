@@ -514,6 +514,11 @@ header button:hover {
 	height: 100%;
 	object-fit: cover;
 	object-position: left top;
+	transition: 0.3;
+}
+
+.card-img-desktop:hover img {
+	object-position: bottom;
 }
 
 .card-img-phone {
