@@ -1,6 +1,6 @@
 Portfólio - Kaique Nocetti (Kaique Dev)
 
-Nesse portfólio eu falo sobre as principais tecnologias que eu utilizo e meus principais projetos pessoais e que já trabalhei
+Nesse portfólio eu falo sobre as principais tecnologias que eu utilizo e meus principais projetos pessoais e que já trabalhei.
 
 As minhas principais tecnologias são:
 

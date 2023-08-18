@@ -34,7 +34,7 @@ function erase() {
 
 setTimeout(type, 500);	
 
-var scrollToProjects = document.getElementById("scroll");
+var scrollToProjects = document.querySelector(".scroll");
 
 scrollToProjects.addEventListener("click", function() {
   scrollToElement("#projects"); 
@@ -76,6 +76,9 @@ window.addEventListener("scroll", function(){
 
 
 const translationsPt = {
+  h1: "Início",
+  h2: "Projetos",
+
   t1: "Olá mundo!",
   t2: "Meu nome é Kaique Nocetti",
   t3: "e eu sou desenvolvedor",
@@ -86,8 +89,8 @@ const translationsPt = {
   d5: "HTML5/CSS3 - 3 Anos",
   d6: "Baixe meu CV",
 
-  p1: "My Projects",
-  p2: "Projects I worked on",
+  p1: "Meus projetos",
+  p2: "Projetos que eu já trabalhei",
 
   ajfimoveis: "Meu primeiro projeto como programador, na primeira versão só usava Front-End, HTML, CSS e um pouco de Javascript. Eu fui ganhando experiência e com o tempo eu ia adicionando coisas novas, como google recaptcha para validar os envios de e-mail através do formulário de contato, também inclui uma funcionalidade onde o usuário pode calcular o financiamento de um imóvel, e gera um gráfico demonstrando as parcelas, recentemente eu acrescentei um banco de dados, para fazer o controle do meu Back-End. Hoje o site é dinâmico e tem um painel de controle do administrador do site, no caso meu pai,para ele poder adicionar e editar informações sobre o imóvel dinamicamente. As tecnologias utilizadas nesse projeto foram: PHP, HTML5, CSS3, Javascript, Jquery, MySQL e ChartJs.",
   mostruarioOnline: "Uma plataforma online para as pessoas criarem seu próprio mostruário/catálogo e terem para uso pessoal. Esse projeto era para ser somente um mostruário para a minha mãe que trabalha com jóias, um produto mais complexo de se vender online através de um e-commerce ou anunciar nas redes socais por falta de segurança e ser um produto de alta valia. Então eu criei o mostruário para ela poder copiar o link e mandar para as clientes de forma privativa. Porém depois dei conta que poderia ser solução para outros tipos de negócio, então me transformei numa plataforma com diversas funcionalidades. A minha ideia é ser o mais simples de utilizar possível, além eu criei imaginando que o cliente final era minha mãe, então eu busquei simplificar ao máximo toda o UX e UI. O projeto já está online e funcionando em sua primeira versão. As tecnologias que eu utilizei foram: PHP, HTML5, CSS3, Javascript, Jquery e MySQL",
@@ -100,6 +103,9 @@ const translationsPt = {
 };
 
 const translationsEn = {
+  h1: "Home",
+  h2: "Projects",
+
   t1: "Hello World!",
   t2: "My name is Kaique Nocetti",
   t3: "and I'm a developer",
@@ -123,6 +129,9 @@ const translationsEn = {
 };
 
 const translationsFr = {
+    h1: "Commencer",
+    h2: "Projets",
+
     t1: "Bonjour le monde!",
     t2: "Je m'appelle Kaique Nocetti",
     t3: "je suis développeur",
